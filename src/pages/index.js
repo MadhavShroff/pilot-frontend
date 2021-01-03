@@ -1,15 +1,17 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import config from "../../data/SiteConfig";
 import "./index.css";
+import Navbar from "../components/Navbar/Navbar";
+import Carousel from "../components/Carousel/Carousel";
 
-export default function MainLayout({ children }) {
+export default ({ children }) => {
   return (
     <div className="layout-container">
       <Helmet>
-        <meta name="description" content={config.siteDescription} />
         <html lang="en" />
       </Helmet>
+      <Navbar />
+      <Carousel />
     </div>
   );
 }
