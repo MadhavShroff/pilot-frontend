@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import "./styles.css";
 import Banner from "../ImageParallaxBanner/Banner";
 import Map from "../Map/Map";
+import Image from "../Image/Image";
 
 export default () => {
     return (<>
-        <h1 class="d-flex justify-content-center m-2 p-2 pt-5 pb-5 display-2 rounded-lg z" id="headBanner"> Pilot Group of Products </h1>
+        <h1 class="d-flex justify-content-center m-2 p-2 pt-5 pb-5 display-3 rounded-lg z" id="headBanner"> Pilot Group of Products </h1>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-8 p-5">
@@ -14,7 +15,7 @@ export default () => {
                     </p>
                 </div>
                 <div class="col-md-4 d-flex align-items-center">
-                    <img alt="Bootstrap Image Preview" style={{width: "100%", top: "50%"}} src="https://multiprintind-my.sharepoint.com/personal/ae2_multiprintindia_com/Documents/Pilot%20Products%20jpgs/Spray%20Guns/Type%2059.jpg" />
+                    <Image alt="Spray Gun" src="drill-1.jpg" style={{width: "100%"}} />
                 </div>
             </div>
         </div>
@@ -22,7 +23,7 @@ export default () => {
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4 p-5 d-flex align-items-center">
-                    <img alt="Bootstrap Image Preview" class="img-fluid" style={{width: "100%", top: "50%"}} src="https://multiprintind-my.sharepoint.com/personal/ae2_multiprintindia_com/Documents/Pilot%20Products%20jpgs/Gas%20Tourches/GCT%2007.jpg"/>
+                    <Image alt="Spray Gun" src="HVLP-1.jpg" style={{width: "100%"}} />
                 </div>
                 <div class="col-md-8 p-5">
                     <h1 class="display-3">Sprays</h1>
@@ -39,16 +40,16 @@ export default () => {
                     </p>
                 </div>
                 <div class="col-md-4 d-flex align-items-center">
-                    <img alt="Bootstrap Image Preview" style={{width: "100%", top: "50%"}} src="https://multiprintind-my.sharepoint.com/personal/ae2_multiprintindia_com/Documents/Pilot%20Products%20jpgs/Spray%20Guns/Type%2059.jpg" />
+                    <Image alt="Spray Gun" src="spray-2.jpg" style={{width: "100%"}} />
                 </div>
             </div>
         </div>
-        <h1 class="d-flex justify-content-center m-2 p-2 pt-5 pb-5 display-2 rounded-lg z" id="headBanner"> Superior Technology </h1>
+        <h1 class="d-flex justify-content-center m-2 p-2 pt-5 pb-5 display-3 rounded-lg z" id="headBanner"> Superior Technology </h1>
         <Banner imageSrc="https://media.gettyimages.com/photos/paint-spray-gun-lying-on-its-nib-on-the-work-bench-picture-id1135775354?s=2048x2048"/>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4 p-5 d-flex align-items-center">
-                    <img alt="Bootstrap Image Preview" class="img-fluid" style={{width: "100%", top: "50%"}} src="https://multiprintind-my.sharepoint.com/personal/ae2_multiprintindia_com/Documents/Pilot%20Products%20jpgs/Gas%20Tourches/GCT%2007.jpg"/>
+                <Image alt="Spray Gun" src="torch-1.jpg" style={{width: "100%"}} />
                 </div>
                 <div class="col-md-8 p-5">
                     <h1 class="display-3">Sprays</h1>
@@ -56,7 +57,7 @@ export default () => {
                 </div>
             </div>
         </div>
-        <h1 class="d-flex justify-content-center m-2 p-2 pt-5 pb-5 display-2 rounded-lg z" id="headBanner"> Find Our Outlets </h1>
+        <h1 class="d-flex justify-content-center m-2 p-2 pt-5 pb-5 display-3 rounded-lg z" id="headBanner"> Find Our Outlets </h1>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-8 ">
