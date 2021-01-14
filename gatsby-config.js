@@ -42,12 +42,6 @@ module.exports = {
     "gatsby-plugin-twitter",
     "gatsby-plugin-sitemap",
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: path.join(__dirname, `src`, `images`),
-      },
-    },
-    {
       resolve: "gatsby-plugin-manifest",
       options: {
         name: config.siteTitle,

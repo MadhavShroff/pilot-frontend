@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./styles.css";
 import Banner from "../ImageParallaxBanner/Banner";
 import Map from "../Map/Map";
-import Image from "../Image/Image";
 
 export default () => {
     return (<>
@@ -15,7 +14,7 @@ export default () => {
                     </p>
                 </div>
                 <div class="col-md-4 d-flex align-items-center">
-                    <Image alt="Spray Gun" src="drill-1.jpg" style={{width: "100%"}} />
+                    <img alt="Spray Gun" src="https://pilot-images-a34ed.surge.sh/drill-1.jpg" style={{width: "100%"}} />
                 </div>
             </div>
         </div>
@@ -23,7 +22,7 @@ export default () => {
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4 p-5 d-flex align-items-center">
-                    <Image alt="Spray Gun" src="HVLP-1.jpg" style={{width: "100%"}} />
+                    <img alt="Spray Gun" src="https://pilot-images-a34ed.surge.sh/HVLP-1.jpg" style={{width: "100%"}} />
                 </div>
                 <div class="col-md-8 p-5">
                     <h1 class="display-3">Sprays</h1>
@@ -40,7 +39,7 @@ export default () => {
                     </p>
                 </div>
                 <div class="col-md-4 d-flex align-items-center">
-                    <Image alt="Spray Gun" src="spray-2.jpg" style={{width: "100%"}} />
+                    <img alt="Spray Gun" src="https://pilot-images-a34ed.surge.sh/spray-2.jpg" style={{width: "100%"}} />
                 </div>
             </div>
         </div>
@@ -49,7 +48,7 @@ export default () => {
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4 p-5 d-flex align-items-center">
-                <Image alt="Spray Gun" src="torch-1.jpg" style={{width: "100%"}} />
+                <img alt="Spray Gun" src="https://pilot-images-a34ed.surge.sh/torch-1.jpg" style={{width: "100%"}} />
                 </div>
                 <div class="col-md-8 p-5">
                     <h1 class="display-3">Sprays</h1>
