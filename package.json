@@ -70,6 +70,9 @@
     "stylelint-prettier": "^1.1.2",
     "write-good": "^1.0.3"
   },
+  "resolutions": {
+    "sharp": "0.24.0"
+  },
   "keywords": [
     "gatsby"
   ],
